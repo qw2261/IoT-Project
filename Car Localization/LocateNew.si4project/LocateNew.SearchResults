@@ -1,0 +1,6 @@
+---- TrajectCorrectPID Matches (5 in 3 files) ----
+Chassis.h (USER\Chassis_Lib\inc) line 95 : extern PID_StructTypedef TrajectCorrectPID;
+chassisNavigate in chassisAlgorithm.c (USER\Chassis_Lib\src) : 		aimVt = PidRegulate(0.0f, TrajectoryDis, &TrajectCorrectPID);
+chassisOnline in chassisAlgorithm.c (USER\Chassis_Lib\src) : 				 Vvertical = PidRegulate(0.0f,PositionError,&TrajectCorrectPID);
+chassisInit in chassisInit.c (USER\Chassis_Lib\src) : 		PositionPidInit(&TrajectCorrectPID);
+chassisInit in chassisInit.c (USER\Chassis_Lib\src) :     TrajectCorrectPID.Kp=5.0f;
