@@ -244,7 +244,7 @@ tqdm==4.36.1
 traitlets==4.3.3
 unicodecsv==0.14.1
 uritemplate==3.0.0
-urllib3==1.24.2
+urllib3==1.26.5
 virtualenv==16.4.3
 virtualenv-clone==0.5.1
 wcwidth==0.1.7
